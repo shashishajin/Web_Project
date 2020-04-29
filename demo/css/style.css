@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 158px;
+    position: relative;
+    background-color: white;
+}
+.func{
+    padding-top: 15px;
+    color: black;
+}
+.container {
+    width: 1903px;
+
+	margin-left: auto;
+    margin-right: auto;
+}
+html{
+    overflow-x: hidden;
+    background-color: black;
+}
+.no1{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.no2{
+    position: relative;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.rhs{
+    display: flex;
+    flex-direction: row;
+}
+.bd1{
+    width: 100%;
+    height:760px;
+    top: 40px;
+}
+.background1{
+    background-image: url(img/technology-computer-lines-board-50711.png);
+    width: 1920px;
+    height: 600px;
+}
+.ryzen{
+    min-width: 613px;
+}
+.bd2{
+    width:504px;
+    height:75px;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 45%;
+}
+.suj{
+    position: relative;
+    left: 5%;
+    color: white;
+    font-size: larger;
+}
+
+footer{
+    color: white;
+    height: 225px;
+}
+.bd4{
+    height: 1032px;
+}
+.fb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 1400px;
+    padding-top: 100px;
+    position: relative;
+}
