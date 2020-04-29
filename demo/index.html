@@ -7,40 +7,28 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
     <div class="container">
-        <header class="header">
-                <a href="" class="btn_logo"><img src="img/tmd.png" alt="this is a logo link" style="padding-top: 15%;padding-left: 70%;"></a>
-                <div class="func">
-                    <a href="" style="text-decoration:none;"><p style="color: black;">處理器</p></a>
-                </div>
-                <div class="func">
-                    <a href="" style="text-decoration:none;"><p style="color: black;">顯示卡</p></a>
-                </div>
-                <div class="func">
-                    <a href="" style="text-decoration:none;"><p style="color: black;">遊戲</p></a>
-                </div>
-                <div class="func">
-                    <a href="" style="text-decoration:none;"><p style="color: black;">企業解決方案</p></a>
-                </div>
-                <div class="func">
-                    <a href="" style="text-decoration:none;"><p style="color: black;">如何購買</p></a>
-                </div>
-                <div class="rhs">
-                    <a href="" style="text-decoration:none;"><p style="color: black;">登入</p></a>
-                    <a href=""><img src="img/搜尋.jpg" alt="this is a search link"></a>
-                </div>
-        </header>
-        <body>
-            <div style="background-image:url(img/technology-computer-lines-board-50711.png);widows: 1903px;height:760px;">
-                <img src="./img/amd.png" alt="" style=" padding-top: 7%; padding-left: 8%;">
-                <span style="position: absolute;padding-left: 18%; padding-top: 10%; color: white;">
-                    <div class="no1">
-                        <h1>做得更好。做得更快。</h1>
-                    </div>
-                    <div class="no2">
-                        <h4>第三代 AMD Ryzen™ 3 處理器可將多任務處理能力提升一倍，來顯著提升 PC 的效能。</h4>
-                    </div>
-                </span>
+        <header>
+            <div class="top_nav">
+                <a href="../Web_Project_首頁/web_project.html"><img class = "amd_logo" src="./img/tmd.png" alt=""></a>
+                <a class="processor">處理器</a>
+                <a class="processor" href="../demo/index.html">顯示卡</a>
+                <a class="processor" href="../GamePage/GamePage.html">遊戲</a>
+                <a class="processor">企業解決方案</a>
+                <a class="processor">如何購買</a>
             </div>
+        </header>
+        <div style="background-image:url(img/technology-computer-lines-board-50711.png);widows: 1903px;height:760px;">
+        <div class = "main">
+            <div class = "main_pic">
+                <img class = "main_1" src="./img/amd.png">
+            </div>
+            <div class="main_des">
+                <a class="main_line_1">做得更好。做得更快。</a><br>
+                <a class="main_line_2">第三代 TMD Ryzen™ 3 處理器可將多任務處理能力提升一倍，來顯著提升 PC 的效能。</a><br>
+                <a class="main_line_3">瞭解更多</a>
+            </div>
+        </div>
+        </div>
             <div class="bd2">
               <h1> 致勝的遊戲效能</h1>
             </div>
@@ -137,15 +125,19 @@
             </div>
         </body>
         <footer>
-            <div class="fb">
-                <a href="https://www.facebook.com/groups/902411319854786/"><img src="img/fb.jpg" alt=""></a>
-                <a href=""><img src="img/twitter.jpg" alt=""></a>
-                <a href=""><img src="img/yt.jpg" alt=""></a>
-                <a href=""><img src="img/mail.jpg" alt=""></a>
-            </div>
-            <span style="position: absolute;padding-left: 38%; padding-top: 2%;">
-                <h3>&copy;2020 Advanced Micro Devices, Inc</h3>
-            </span>
+            <div class="box_footer">
+                <div class="line"></div>
+                <div class=contact>
+                    <img class="btn" src="./img/fb.jpg">
+                    <img class="btn" src="./img/twitter.jpg">
+                    <img class="btn" src="./img/mail.jpg">
+                    <img class="btn" src="./img/yt.jpg">
+                </div>
+                <div class="line"></div>
+                <div class="corp">
+                    <a class="corp_des">&copy;2020 Technical Manufacturing Devices, Inc</a>
+                </div>
+             </div>
         </footer>
     </div>
 </html>
